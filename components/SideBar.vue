@@ -13,26 +13,7 @@
 </template>
 
 <script>
-import ItemSidebar from './ItemSidebar.vue';
-export default {
-    components: {
-        ItemSidebar
-    }
-}
 </script>
 
-<style scopped>
-.fixed-left {
-  display: block;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 200px;
-  background-color: white;
-}
-.img-logo {
-  width: 120px;
-  height: auto;
-  margin-top: 20px;
-}
+<style scopped src="../assets/components/Sidebar/main.css">
 </style>

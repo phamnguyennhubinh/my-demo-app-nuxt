@@ -1,15 +1,12 @@
 <template>
-  <main>
-    <!-- <h1 class="d-flex">Home Page Home PageHome PageHome PageHome PageHome Page</h1>
-    <nuxt-link to="/argon">About (internal link that belongs to the Nuxt App)</nuxt-link> -->
-    <!-- <Nuxt/> -->
-    <light-table :items="items" />
-  </main>
+  <div>
+    <light-table :items="items"/>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "IndexPage", 
+  name: "IconPage",
   layout: "DefaultLayout",
   data() {
     const items = [
@@ -19,6 +16,34 @@ export default {
         status: "• pending",
         users: "",
         completion: "60%",
+      },
+      {
+        project: "Angular Now UI Kit PRO",
+        budget: "$3150 USD",
+        status: "• completed",
+        users: "",
+        completion: "72%",
+      },
+      {
+        project: "Angular Now UI Kit PRO",
+        budget: "$3150 USD",
+        status: "• completed",
+        users: "",
+        completion: "72%",
+      },
+      {
+        project: "Angular Now UI Kit PRO",
+        budget: "$3150 USD",
+        status: "• completed",
+        users: "",
+        completion: "72%",
+      },
+      {
+        project: "Angular Now UI Kit PRO",
+        budget: "$3150 USD",
+        status: "• completed",
+        users: "",
+        completion: "72%",
       },
       {
         project: "Angular Now UI Kit PRO",
@@ -78,10 +103,8 @@ export default {
       },
     ];
     return {
-      items
+      items,
     };
   },
 };
 </script>
-
-<style scoped></style>

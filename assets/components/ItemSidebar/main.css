@@ -1,0 +1,44 @@
+.center-ver {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#itemSidebar ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: -10px;
+    cursor: pointer;
+    color: rgba(0,0,0,.5);
+}
+
+#itemSidebar ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+}
+
+#itemSidebar ul li a:hover {
+    color: black;
+}
+
+#itemSidebar ul li:hover {
+    color: black;
+}
+
+#itemSidebar ul {
+    margin-top: 20px;
+}
+
+.margin-two {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.title-document {
+    font-size: 14px;
+    margin-left:15px;;
+}
+
+.active {
+    color: black
+}
+
